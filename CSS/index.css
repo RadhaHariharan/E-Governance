@@ -1,6 +1,7 @@
-.logo
+.title-image
 {
     position: absolute;
-    top : 1vw;
-    left: 1vw;
+    top : 10px;
+    left: 10px;
+    width: 60%;
 }
