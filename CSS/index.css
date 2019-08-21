@@ -12,15 +12,18 @@ body
     width: 70%;
 }
 
-.ullist
+.nav1
 {
-    position: absolute;
-    list-style-type: none;
-    padding: 0%;
     background-color: green;
+    position: absolute;
     margin-top: 15%;
     border-radius: 5px;
     width: 100%
+}
+
+.navbarheader
+{
+    color: lightgreen;
 }
 
 .toogle
@@ -33,40 +36,15 @@ body
     background-color: white;
 }
 
-.navbarheader
-{
-    display: block;
-    color: lightgreen;
-    text-align: center;
-    padding: 14px ;
-    padding-left: 25px;
-    text-decoration: none;
-    font-size: 17px;
-    position: relative;
-    left:-11px;
-}
 
 .navbarheader:hover
 {
-    background-color: green;
     color: white;
-    text-decoration: none;
 }
 
-.navlist
-{
-    float: left;    
-}
-
-.link
-{
-    position: relative;
-    left:-6px;
-}
 
 .navlink
 {
-    display: block;
     color: lightgreen;
     text-align: center;
     padding: 14px ;
@@ -74,11 +52,22 @@ body
     text-decoration: none;
     font-size: 17px;
 
+}
+
+.test
+{
+    background-color: green;
 }
 
 .navlink:hover
 {
     background-color: green;
     color: white;
-    text-decoration: none;
+}
+
+
+
+nav li a:hover
+{
+    background-color: black;
 }
