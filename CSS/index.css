@@ -26,6 +26,11 @@ body
     color: lightgreen;
 }
 
+.navbarheader:hover
+{
+    color: white;
+}
+
 .toogle
 {
     border-color: lightgreen;
@@ -36,13 +41,6 @@ body
     background-color: white;
 }
 
-
-.navbarheader:hover
-{
-    color: white;
-}
-
-
 .navlink
 {
     color: lightgreen;
@@ -51,23 +49,23 @@ body
     padding-left: 25px;
     text-decoration: none;
     font-size: 17px;
-
 }
 
-.test
-{
-    background-color: green;
-}
 
 .navlink:hover
 {
     background-color: green;
     color: white;
+    text-decoration: none;
 }
 
-
-
-nav li a:hover
+.test
 {
-    background-color: black;
+    position: relative;
+    top:12px;
 }
+
+
+
+
+
