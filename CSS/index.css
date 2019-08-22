@@ -20,6 +20,11 @@ body
     width: 100%
 }
 
+.navbarheader
+{
+    color: lightgreen;
+}
+
 .toogle
 {
     border-color: lightgreen;
@@ -30,20 +35,10 @@ body
     background-color: white;
 }
 
-.navbarheader
-{
-    color: lightgreen;
-}
 
 .navbarheader:hover
 {
     color: white;
-}
-
-.test
-{
-    position: relative;
-    top:12px;
 }
 
 .navlink
@@ -56,9 +51,15 @@ body
     font-size: 17px;
 }
 
+
+
 .navlink:hover
 {
-    background-color: green;
+    
     color: white;
     text-decoration: none;
+    background-color: green;
 }
+
+
+
