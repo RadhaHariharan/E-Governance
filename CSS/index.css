@@ -1,65 +1,87 @@
-body
-{
-    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif;
+body{
+    font-family: 'roboto', sans-serif;
+    margin:0 auto;
 }
 
-.title-image
-{
-    position: absolute;
-    top : 15px;
-    left: 15px;
-    width: 70%;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-.nav1
-{
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+
+nav {
+    height:72px;
     background-color: green;
-    position: absolute;
-    margin-top: 15%;
-    border-radius: 5px;
-    width: 100%
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    font-family: 'roboto condensed' , sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0 ;
+    box-sizing: border-box;
+    z-index: 100;
 }
 
-.navbarheader
-{
+nav a {
+    padding: 0 20px;
     color: lightgreen;
-}
-
-.toogle
-{
-    border-color: lightgreen;
-}
-
-.icon
-{
-    background-color: white;
+    transition: 0.5s;
 }
 
 
-.navbarheader:hover
-{
+nav a:hover{
+    text-decoration: none;
     color: white;
 }
 
-.navlink
-{
-    color: lightgreen;
-    text-align: center;
-    padding: 14px ;
-    padding-left: 25px;
-    text-decoration: none;
-    font-size: 17px;
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin:0;
 }
 
-
-
-.navlink:hover
-{
-    
+.active {
     color: white;
-    text-decoration: none;
-    background-color: green;
 }
 
+#heading {
+    display: flex;
+    height: 100%;
+    background: green;
+    padding : 0 10px;
+    align-items: center;
+    color: white;
+    transition: 0.4s;
+}
 
+#heading a:hover {
+    color: black;
+    font-size: 25px;
+}
 
+/* Menu icon */
+
+#menu-icon {
+    height : 100%;
+    font-size: 20px;
+    padding: 0 4px;
+    color: white;
+    display: none;
+    align-items: center;
+}
+
+/* Slideout menu bar */
+
+#slideout-menu {
+    display: none;
+}
