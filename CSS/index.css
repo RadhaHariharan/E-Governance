@@ -85,3 +85,20 @@ nav ul{
 #slideout-menu {
     display: none;
 }
+
+
+/* Media query*/
+
+@media(max-width:1322px) {
+    nav {
+        padding: 0 10px 0 0;
+        font-size : 18px;
+    }
+}
+
+@media(max-width:1228px) {
+    nav {
+        padding: 0 10px 0 0;
+        font-size : 16px;
+    }
+}
