@@ -36,14 +36,9 @@ nav a {
     transition: 0.5s;
 }
 
-
 nav a:hover{
     text-decoration: none;
     color: white;
-}
-
-nav a::selection{
-    background-color: yellow;
 }
 
 nav ul{
