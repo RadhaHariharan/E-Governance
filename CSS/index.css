@@ -12,6 +12,11 @@ a:hover {
     text-decoration: underline;
 }
 
+a::selection
+{
+    background-color: transparent;
+}
+
 /* Navigation */
 
 nav {
