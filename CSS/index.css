@@ -12,11 +12,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a::selection
-{
-    background-color: transparent;
-}
-
 /* Navigation */
 
 nav {
@@ -46,11 +41,6 @@ nav a:hover{
     color: white;
 }
 
-nav a::selection
-{
-    background-color: transparent;
-}
-
 nav ul{
     display: flex;
     list-style: none;
@@ -60,7 +50,7 @@ nav ul{
     margin:0;
 }
 
-nav ul li a::selection {
+nav ul li::selection {
     background-color: yellow;
 }
 
