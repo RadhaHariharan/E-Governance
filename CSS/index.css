@@ -151,17 +151,22 @@ section {
     border-right: 3px solid black;
     transition: all 0.4s;
     display: inline-block;
-    padding: 4px 50px 4px 25px; 
+    padding: 4px 50px; 
 }
 
 .section-heading:hover {
     padding: 4px;
-    padding: 4px 70px 4px 25px;
+    padding: 4px 70px 4px 50px;
     background-color: green;
     color: white;
+    cursor: default;
 }
 
 /* Card */
+
+.card{
+    padding : 5px 5px;
+}
 
 .card-image {
     transition: 0.4s;
@@ -173,6 +178,37 @@ section {
 
 .card .card-description {
     padding : 0 8px;
+}
+
+.card-description h3 {
+    text-align: center;
+    font-family: 'Arimo' , sans-serif;
+    
+}
+
+.card-title:hover {
+    text-decoration: underline;
+}
+
+/*Read more button*/
+
+.btn-readmore{
+    padding : 3px 12px;
+    border: 3px solid black;
+    transition: 0.4s;
+    display: inline-block;
+    margin-left: 120px;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+}
+
+.btn-readmore:hover {
+    background:green;
+    color: lightgreen;
+    text-decoration: none;
+    font-style: none;
+    padding : 3px 48px 3px 12px;
 }
 
 /* Media query*/
@@ -233,6 +269,10 @@ section {
     .card-image img {
         width : 100%;
     }
+
+    .btn-readmore{
+        margin-left: 80px;
+    }
 }
 
 @media(max-width:720px) {
@@ -245,6 +285,10 @@ section {
 
     .card-image img {
         width : 100%;
+    }
+
+    .btn-readmore {
+        margin-left: 150px;
     }
 }
 
