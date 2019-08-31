@@ -46,6 +46,11 @@ nav a:hover{
     color: white;
 }
 
+nav a::selection
+{
+    background-color: transparent;
+}
+
 nav ul{
     display: flex;
     list-style: none;
