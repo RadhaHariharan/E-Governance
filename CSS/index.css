@@ -12,6 +12,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 /* Navigation */
 
 nav {
@@ -39,6 +40,10 @@ nav a {
 nav a:hover{
     text-decoration: none;
     color: white;
+}
+
+nav a::selection{
+    background-color: yellow;
 }
 
 nav ul{
