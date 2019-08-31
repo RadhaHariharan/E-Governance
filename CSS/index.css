@@ -85,22 +85,6 @@ nav ul{
     color : white;
 }
 
-/* Small menu icon*/
-#menusmall-icon
-{
-    height: 100%;
-    font-size: 20px;
-    padding: 0 4px;
-    color: lightgreen;
-    display: none;
-    align-items: center;
-}
-
-#menusmall-icon:hover
-{
-    color: white;
-}
-
 /* Slideout menu bar */
 
 #slideout-menu
@@ -139,43 +123,6 @@ nav ul{
     text-decoration: none;
 }
 
-#hide1
-{
-    display: none;
-    background-color: green;
-    z-index : 100;
-    position: absolute;
-    right: 0px;
-    transition: 0.4s;
-    margin-top: 72px;
-    width: 30%;
-    text-align: center;
-    opacity: 0;
-    pointer-events: none;
-}
-
-#hide1 ul{
-    list-style: none;
-    padding : 0 32px;
-}
-
-#hide1 ul li{
-    padding : 7px;
-}
-
-#hide1 a
-{
-    font-family : "Roboto Condensed", sans-serif;
-    font-size: 20px;
-    color: lightgreen;
-}
-
-
-
-#hide1 a:hover{
-    color: white;
-    text-decoration: none;
-}
 
 /* Media query*/
 
@@ -190,24 +137,6 @@ nav ul{
     nav {
         padding: 0 10px 0 0;
         font-size : 16px;
-    }
-}
-
-@media(max-width:1139px)
-{
-    .hide1
-    {
-        display: none;
-    }
-
-    #menusmall-icon
-    {
-        display: flex;
-    }
-
-    #hide1
-    {
-       display: block;
     }
 }
 
