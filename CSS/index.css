@@ -50,9 +50,6 @@ nav ul{
     margin:0;
 }
 
-nav ul li::selection {
-    background-color: yellow;
-}
 
 .active {
     color: white;
