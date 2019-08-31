@@ -12,6 +12,9 @@ a:hover {
     text-decoration: underline;
 }
 
+main{
+    margin: 0 auto;
+}
 
 /* Navigation */
 
@@ -20,9 +23,8 @@ nav {
     background-color: green;
     width: 100%;
     margin: 0;
-    position: fixed;
-    font-family: 'roboto condensed' , sans-serif;
     font-size: 20px;
+    font-family : "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 0 16px 0 0 ;
@@ -41,6 +43,10 @@ nav a:hover{
     color: white;
 }
 
+nav a::selection{
+    background-color: yellow;
+}
+
 nav ul{
     display: flex;
     list-style: none;
@@ -49,7 +55,6 @@ nav ul{
     height: 100%;
     margin:0;
 }
-
 
 .active {
     color: white;
@@ -116,6 +121,7 @@ nav ul{
     font-family : "Roboto Condensed", sans-serif;
     font-size: 20px;
     color: lightgreen;
+    transition: 0.4s;
 }
 
 #slideout-menu a:hover{
@@ -123,6 +129,52 @@ nav ul{
     text-decoration: none;
 }
 
+/*Section*/
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sec-heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 25px;
+    color: black;
+    font-family: 'Robo Condensed' , sans-serif;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    transition: all 0.4s;
+    display: inline-block;
+    padding: 4px 50px 4px 25px; 
+}
+
+.section-heading:hover {
+    padding: 4px;
+    padding: 4px 70px 4px 25px;
+    background-color: green;
+    color: white;
+    pointer-events: none;
+}
+
+/* Card */
+
+.card-image {
+    transition: 0.4s;
+}
+
+.card-image:hover{
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.card .card-description {
+    padding : 0 8px;
+}
 
 /* Media query*/
 
@@ -155,7 +207,45 @@ nav ul{
     #menu-icon
     {
         display: flex;
+    }    
+}
+
+@media(min-width:1000px) {
+    main {
+        width:95%;
+    }
+    .card {
+        width:30%;
     }
 
-    
+    .card-image img {
+        width : 100%;
+    }
 }
+
+@media(max-width:1000px) {
+    main {
+        width:90%;
+    }
+    .card {
+        width:45%;
+    }
+
+    .card-image img {
+        width : 100%;
+    }
+}
+
+@media(max-width:720px) {
+    main {
+        width:100%;
+    }
+    .card {
+        width:80%;
+    }
+
+    .card-image img {
+        width : 100%;
+    }
+}
+
