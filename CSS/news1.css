@@ -315,14 +315,14 @@ footer #right-footer ul li a:hover{
     }
     
     #main-image img {
-        margin-left: 22%;
+        margin-left: 21%;
     }
 }
 
 @media(max-width:650px) {
     
     #main-image img {
-        margin-left: 17%;
+        margin-left: 16%;
     }
 
 }
@@ -330,7 +330,7 @@ footer #right-footer ul li a:hover{
 @media(max-width:550px) {
     
     #main-image img {
-        margin-left: 12%;
+        margin-left: 11%;
     }
 
 }
@@ -338,7 +338,7 @@ footer #right-footer ul li a:hover{
 @media(max-width:500px) {
     
     #main-image img {
-        margin-left: 7%;
+        margin-left: 6%;
     }
     
 }
