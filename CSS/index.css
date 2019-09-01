@@ -58,10 +58,6 @@ nav a:hover{
     color: white;
 }
 
-nav a::selection{
-    background-color: yellow;
-}
-
 nav ul{
     display: flex;
     list-style: none;

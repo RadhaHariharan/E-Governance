@@ -126,6 +126,7 @@ nav ul{
 
 #main-image img {
     margin-left: 35%;
+    width : 30%;
 }
 
 #main-content #content-heading{
@@ -312,6 +313,7 @@ footer #right-footer ul li a:hover{
     
     #main-image img {
         margin-left: 21%;
+        width: 70%;
     }
 }
 
@@ -319,6 +321,7 @@ footer #right-footer ul li a:hover{
     
     #main-image img {
         margin-left: 16%;
+        width: 65%
     }
 
 }
@@ -327,6 +330,7 @@ footer #right-footer ul li a:hover{
     
     #main-image img {
         margin-left: 11%;
+        width : 80%;
     }
 
 }
@@ -335,6 +339,7 @@ footer #right-footer ul li a:hover{
     
     #main-image img {
         margin-left: 6%;
+        width : 80%;
     }
     
 }
