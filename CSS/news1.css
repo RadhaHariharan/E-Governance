@@ -150,6 +150,8 @@ nav ul{
 #main-content #content
 {
     margin-left:18px;
+    line-height: 1.5;
+    font-family : 'Roboto Condensed' , sans-serif;
 }
 
 #main-content #content a
